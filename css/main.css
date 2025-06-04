@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Main CSS Doc */
+
+/* CSS DOC */
+/* 
+ CSS Guide
+ 1. General Styles 
+ 2. */
+
+ /* 1. --- General Styles ---  */
+
+/* Normalizing base CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+section h2, section h3, section p{
+    padding-left: 40px;
+    text-align: center;
+}
+
+.spacer{
+    margin-top: 30px;
+}
+
+.text-spacer{
+    margin-top: 30px;
+}
+
+#nav{
+    text-align: right;
+}
+ /* 1. --- END Genral Styles--- */
+
+ header nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+ header nav ul li{
+    margin: 20px;
+}
